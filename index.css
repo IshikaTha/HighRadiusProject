@@ -19,14 +19,14 @@ div{
 }
 
 .img1{
-    margin-top: 16px;
+   
     width: 233px;
     height: 52px;
 }
 
 .img2{
-    margin-left: 757px;
-    margin-top: 22px;
+    margin-left: 365px;
+    
 }
 button{
     padding: 5px;
@@ -81,6 +81,7 @@ button{
     opacity: 1;
     background-color: #283A46;
 }
+
 
 
 
