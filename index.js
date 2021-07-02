@@ -1,27 +1,27 @@
 //Modal for ADD starts here        
 // Get the modal
-var modal = document.getElementById("myModal");
+var modalAdd = document.getElementById("AddModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btnAdd = document.getElementById("myAdd");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var spanAdd = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
+btnAdd.onclick = function () {
+  modalAdd.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+spanAdd.onclick = function () {
+  modalAdd.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+window.onclick = function (event) {
+  if (event.target == modalAdd) {
+    modalAdd.style.display = "none";
   }
 }
 
@@ -32,31 +32,29 @@ window.onclick = function(event) {
 //Modal for EDIT starts here  
 
 // Get the modal
-var modal = document.getElementById("myModal");
+var modalEdit = document.getElementById("EditModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btnEdit = document.getElementById("myEdit");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var spanEdit = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
+btnEdit.onclick = function () {
+  modalEdit.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+spanEdit.onclick = function () {
+  modalEdit.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+window.onclick = function (event) {
+  if (event.target == modalEdit) {
+    modalEdit.style.display = "none";
   }
 }
-
-
 
 //Modal for EDIT ends here  

@@ -14,25 +14,38 @@
     <img class="img2" src="logo.svg" alt="logo">
     <p>Invoice List</p>
     <div>
-        <button id="myBtn" style="margin-left: 900px;">Add</button>
+        <button id="myAdd" style="margin-left: 900px;">Add</button>
         <!-- The Modal for ADD starts here -->
-        <div id="myModal" class="modal">
-
+        <div id="AddModal" class="modal">
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <nav class="navbar-heading">Add invoice</nav>
-
                 <div>
-                    <h1>Hello Pop-up</h1>
+                    <h1>Hello Pop-up this is ADD modal</h1>
                 </div>
                 <footer>cancel</footer>
             </div>
-
         </div>
 
 
-        <button style="margin-left: 20px;">Edit</button>
+        <!-- The Modal for ADD ends here -->
+        <button id="myEdit" style="margin-left: 20px;">Edit</button>
+        <!-- The Modal for ADD starts here -->
+        <div id="EditModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <nav class="navbar-heading">Add invoice</nav>
+                <div>
+                    <h1>Hello Pop-up This is Edit Modal</h1>
+                </div>
+                <footer>cancel</footer>
+            </div>
+        </div>
+        <!-- The Modal for Edit ends here -->
+
+
         <button style="margin-left: 20px;">Delete</button>
         <input type="text" class="input" placeholder="Search by Invoice Number">
         <table class="table">
